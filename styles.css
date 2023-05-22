@@ -1,0 +1,31 @@
+.parent-wrapper,
+.sidebar,
+.headbar,
+.main-content {
+    display: grid;
+}
+/*SideBarStyles*/
+
+.home-navigation,
+.information-navigation {
+    display: grid;
+}
+
+/*HeadbarStyles*/
+.mini-corner-profile,
+.greetings-area {
+    display: grid;
+}
+
+
+/*MainContentStyles*/
+.main-content {
+    display: grid;
+}
+
+.projects,
+.trending {
+    display: grid;
+}
+
+
