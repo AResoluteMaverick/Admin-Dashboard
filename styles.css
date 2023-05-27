@@ -309,6 +309,7 @@ button {
     border-radius: 25px;
 }
 
+
 .card-title {
     margin-left: 25px;
     padding-top: 30px;
@@ -321,6 +322,19 @@ button {
     margin-left: 25px;
     margin-right: 25px;
     font-size: 1.2em;
+    color: #9ca3af;
+}
+
+.card-content-wrap {
+    height: 80%;
+}
+
+.icon-holders {
+    height: 20%;
+}
+
+.icon-holders img {
+    max-width: 1vw;
 }
 
 .announcements{
