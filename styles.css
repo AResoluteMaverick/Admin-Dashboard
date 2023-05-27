@@ -2,7 +2,8 @@
 
 html,
 body {
-    height: 100%
+    height: 100%;
+    background-color: #ede9fe;
 
 }
 
@@ -23,8 +24,7 @@ ul {
 }
 
 .parent-wrapper {
-    height: 100%;
-}
+    height: 100%;}
 
 .parent-wrapper {
     grid-template-columns: 1fr 4fr;
@@ -104,6 +104,9 @@ ul {
 .headbar {
     grid-column: 2 / 3;
     grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -5px;
+    background-color: white;
+    margin-bottom:20px;
 }
 
 .greetings-area {
@@ -279,10 +282,9 @@ button {
 .main-content {
     display: grid;
     grid-row: 2 / 6;
-    background-color: #ede9fe;
     grid-template-columns: 3.5fr 1fr;
     padding-left: 50px;
-    padding-top:80px;
+    padding-top:60px;
     padding-bottom: 40px;
     gap: 40px;
 }
@@ -300,16 +302,38 @@ button {
 
 .card {
     background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -5px;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
 }
 
+.card-title {
+    margin-left: 25px;
+    padding-top: 30px;
+    font-weight:bold;
+    font-size: 21px;
+}
+
+.card-description {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.2em;
+}
 
 .announcements{
     background-color: white;
     padding:20px;
     margin-right: 50px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -5px;
+    border-radius: 25px;
 }
 
 .trending {
     background-color: black;
     margin-right: 50px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -5px;
+    border-radius: 25px;
 }
